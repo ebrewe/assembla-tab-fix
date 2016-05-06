@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Assembla Name-Tab Fix",
+  "name": "Assembla Tabfix",
   "description": "This extension fixes Assembla's useless name tablessness",
-  "version": "1.0",
+  "version": "0.0.1.1",
 
   "browser_action": {
     "default_icon": "icon.png"
