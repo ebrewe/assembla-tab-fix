@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Assembla Name-Tab Fix",
+  "description": "This extension fixes Assembla's useless name tablessness",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts":[
+    {
+      "matches": ["https://www.assembla.com/*"],
+      "js": ["jquery.min.js", "popup.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "https://www.assembla.com/"
+  ]
+}
